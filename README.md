@@ -18,4 +18,4 @@ way:
 
 ## 测试截图
 
-![Screenshot 0](http://https://git.oschina.net/way/Doughnut/raw/master/screenshots/1.gif "Screenshot 0")
+![Screenshot 0](http://https://git.oschina.net/way/Doughnut/raw/master/1.gif "Screenshot 0")
