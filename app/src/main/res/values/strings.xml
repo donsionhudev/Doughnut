@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doughnut</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="accessibility_service_description">"Tap the switch at the top-right corner to grant Doughnut the authority to control the BACK and RECENT button.
+After tapping the switch, the system will send a notice warning you about your personal information. Please be assured that Doughnut will not collect any personal information.
+System Requirements: Android 4.1 or later version"</string>
+    <string name="device_admin_label">@string/app_name</string>
+    <string name="device_admin_description">Enable device admin to allow Doughnut to lock screen</string>
+    <!-- Strings used by the DeviceAdminReceiver -->
+    <string name="add_admin_extra_app_text">One key to lock screen</string>
+    <string name="admin_receiver_status">Device Admin: %1$s</string>
+    <string name="admin_receiver_status_enabled">Enabled</string>
+    <string name="admin_receiver_status_disabled">Disabled</string>
+    <string name="accesibility_service">"    「模拟按键」，需要到 设置 - 辅助功能，服务列表中 开启 悬浮菜单服务。(在顶部或者底部) 
+        如果服务「意外关闭」，请检查是否被后台管理软件清理，然后将软件加入白名单。"</string>
+    <string name="accesibility_service_close">服务意外关闭，请检查是否被后台管理软件清理。如果是，请将软件加入白名单。</string>
+    <string name="activity_device_admin_reason">"Attention: If you are unable to uninstall EasyTouch after activation, please go to your mobile phone's Settings - Security - Device Administrators to deactivate EasyTouch, then proceed to uninstallation."</string>
+    <string name="activity_how_to_uninstall_exp_1">Please listen to me</string>
+    <string name="activity_how_to_uninstall_exp_2">Congratulations, activate lock screen success.</string>
+    <string name="activity_how_to_uninstall_exp_3">"If some day you don't need EasyTouch anymore, you can delete it by 'Uninstall' where at your app list."</string>
+    <string name="activity_how_to_uninstall_exp_4">Why??</string>
+    <string name="activity_how_to_uninstall_exp_5">"Because of difficult to uninstall, we got a lot one star comment by this reason, we so sorry.Can not uninstall because of the Android OS, it need deactivate 'Lock Screen' before you uninstall.
+So,now you can easy uninstalling EasyTouch by this way."</string>
+    <string name="admin_receiver_status_disable_warning">Open device manager failed.</string>
+    <string name="click_for_restore_float_view">Click here back to screen</string>
+    <string name="click_for_restore_float_view_title">Doughnut in here</string>
+    <string name="dialog_accessibility_message">\u0009\u0009Please open \"Doughnut\" in the Accessibility Services, so that you can use BACK HOME and RECENT key. Tap \"Proceed with Installation\".</string>
+    <string name="dialog_to_set_up">Go to activate</string>
+    <string name="q_1">How to auto-start Doughnut on MIUI?</string>
+    <string name="a_1">"1、Settings-Apps-Doughnut.
+2、Manage premissions-open Trust this app.
+3、Manage premissions-open Auto-start."</string>
+    <string name="q_3">How to auto-start Doughnut on HUAWEI EMUI?</string>
+    <string name="a_3">Settings-All(Tab)-Startup manager-Doughnut check on.</string>
+    <string name="q_2">How to make the Floating Button display on MIUI?</string>
+    <string name="a_2">"Follow the steps:
+Before MIUI v6:Setting-Apps-Doughnut-Enable floating windows, switch on, click\"End\", and then restart Doughnut.
+After MIUI v6:Security-Permission-Permissions-Doughnut-Popup notifications-Accept."</string>
+    <string name="q_4">How to make the Floating Button display on HUAWEI EMUI?</string>
+    <string name="a_4">Phone Manager-Setting icon(at the top-right corner)-Dropzone management-Doughnut check on.</string>
+    <string name="q_5">What I should do when the Floating Button disappears?</string>
+    <string name="a_5">Please check whether your security software has added Doughnut to the blacklist or your security software has killed it. Also you can check the option \"Display the Floating Toggle\": Doughnut Settings to make the floating button reappear.</string>
+    <string name="explain_cant_uninstall_ok">I KNOW</string>
+    <string name="explain_cant_uninstall_title">Warning</string>
+    <string name="explain_cant_uninstall_1">You may not uninstall Doughnut normally, two UNINSTALL methods are as below:</string>
+    <string name="explain_cant_uninstall_2">"1. Click &lt;font color='#3ec4f6'>MORE-UNINSTALL&lt;/font> button in Doughnut main menu."</string>
+    <string name="explain_cant_uninstall_3">"2. Or click &lt;font color='#3ec4f6'>Help-Why I can’t uninstall Doughnut&lt;/font> in Doughnut main menu, follow the guidance to uninstall."</string>
+    <!-- settings -->
+    <string name="cata_base_setting_title">Normal</string>
+    <string name="switch_float_view_title">Display the Floating Toggle</string>
+    <string name="float_view_auto_side_model">Auto adsorb side</string>
+    <string name="auto_open">Auto Launch</string>
+    <string name="info_auto_open">Auto launch Doughnut after reboot</string>
+    <string name="smart_hide">Smart Hide</string>
+    <string name="smart_hide_desc">Auto-hide behind the soft keyboard while typing</string>
+    <string name="vibrator_level">Vibrator level</string>
+    <string name="vibrator_level_desc">Change the Vibrator level when touch</string>
+    <string name="vibrator_level_default">Restore default</string>
+    <string name="cata_float_view_feature_setting">Appearance</string>
+    <string name="pref_float_view_size_title">Size</string>
+    <string name="pref_float_view_theme">Theme</string>
+    <string name="pref_float_view_trans_title">Alpha</string>
+    <string name="cata_float_view_other_setting">Other</string>
+    <string name="pref_float_view_questions">Common Questions</string>
+    <string name="pref_float_view_version">Version</string>
+    <string name="pref_float_view_about">About</string>
+    <string name="explain_root_more_info">MORE INFO</string>
+    <string name="explain_root_cancel">CANCEL</string>
+    <string name="explain_root_dont_show_again">"don't show again"</string>
+
+</resources>

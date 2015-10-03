@@ -1,0 +1,23 @@
+<resources>
+
+    <dimen name="layout_radius_large">192dp</dimen>
+    <dimen name="layout_radius_medium">168dp</dimen>
+    <dimen name="layout_radius_small">144dp</dimen>
+    <dimen name="layout_radius_tumblr">96dp</dimen>
+    <dimen name="layout_child_offset_large">144dp</dimen>
+    <dimen name="layout_child_offset_medium">120dp</dimen>
+    <dimen name="layout_child_offset_small">96dp</dimen>
+    <dimen name="layout_child_offset_tumblr">72dp</dimen>
+    <dimen name="item_circle_size_large">72dp</dimen>
+    <dimen name="item_circle_size_medium">48dp</dimen>
+    <dimen name="item_circle_size_small">36dp</dimen>
+    <dimen name="item_circle_size_tumblr">48dp</dimen>
+    <dimen name="item_font_size_large">32sp</dimen>
+    <dimen name="item_font_size_medium">24sp</dimen>
+    <dimen name="item_font_size_small">16sp</dimen>
+    <dimen name="item_font_size_tumblr">24sp</dimen>
+    <dimen name="default_float_view_size">48dp</dimen>
+    <!-- Falsing threshold used when dismissing notifications from the lockscreen. -->
+    <dimen name="swipe_helper_falsing_threshold">70dp</dimen>
+
+</resources>

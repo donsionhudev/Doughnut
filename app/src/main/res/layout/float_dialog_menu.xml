@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.way.arclayout.ArcLayout
+        android:id="@+id/arc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:arc_axisRadius="@dimen/layout_child_offset_tumblr"
+        app:arc_origin="center"
+        app:arc_radius="@dimen/layout_radius_tumblr">
+
+        <ImageButton
+            android:id="@+id/menu_one"
+            style="@style/Item_Tumblr"
+            android:background="@drawable/tumblr_orange_oval"
+            android:src="@drawable/ic_screen_shot" />
+
+        <ImageButton
+            android:id="@+id/menu_two"
+            style="@style/Item_Tumblr"
+            android:background="@drawable/tumblr_green_oval"
+            android:src="@drawable/ic_screen_record" />
+
+        <ImageButton
+            android:id="@+id/menu_three"
+            style="@style/Item_Tumblr"
+            android:background="@drawable/tumblr_grey_oval"
+            android:src="@drawable/ic_power" />
+
+        <ImageButton
+            android:id="@+id/menu_four"
+            style="@style/Item_Tumblr"
+            android:background="@drawable/tumblr_blue_oval"
+            android:src="@drawable/ic_lock_screen" />
+
+        <ImageButton
+            android:id="@+id/menu_five"
+            style="@style/Item_Tumblr"
+            android:background="@drawable/tumblr_teal_oval"
+            android:src="@drawable/ic_notifications" />
+    </com.way.arclayout.ArcLayout>
+
+    <ImageButton
+        android:id="@+id/menu_center"
+        style="@style/Item_Tumblr"
+        android:layout_gravity="center"
+        android:background="@drawable/tumblr_red_oval"
+        android:src="@drawable/ic_faces" />
+
+</FrameLayout>

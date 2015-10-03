@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tumblr_primary">#36465D</color>
+    <color name="tumblr_orange">#F2992E</color>
+    <color name="tumblr_green">#56BC8A</color>
+    <color name="tumblr_teal">#009688</color>
+    <color name="tumblr_grey">#748089</color>
+    <color name="tumblr_blue">#4AA8D8</color>
+    <color name="tumblr_red">#D95E40</color>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">甜甜圈</string>
+    <string name="accessibility_service_description">"请您开启右上角的开关，授予甜甜圈控制返回键和最近任务键的权限。
+点击开关后，你会收到系统提示收集您的个人信息，这是系统默认的授权提示文字。真实的情况是我们不会收集您的任何信息，请放心使用。
+系统要求：安卓4.1系统以上"</string>
+    <string name="device_admin_label">@string/app_name</string>
+    <string name="device_admin_description">激活设备管理器，允许甜甜圈使用一键锁屏权限.</string>
+    <!-- Strings used by the DeviceAdminReceiver -->
+    <string name="add_admin_extra_app_text">一键锁屏</string>
+    <string name="admin_receiver_status">设备管理器: %1$s</string>
+    <string name="admin_receiver_status_enabled">已启用</string>
+    <string name="admin_receiver_status_disabled">已禁用</string>
+    <string name="admin_receiver_status_disable_warning">打开设备管理器失败,锁屏授权失败.</string>
+    <string name="accesibility_service">"  「模拟按键」，需要到 设置 - 辅助功能，服务列表中 开启 悬浮菜单服务。(在顶部或者底部) 
+        如果服务「意外关闭」，请检查是否被后台管理软件清理，然后将软件加入白名单。"</string>
+    <string name="accesibility_service_close">服务意外关闭，请检查是否被后台管理软件清理。如果是，请将软件加入白名单。</string>
+    <string name="click_for_restore_float_view">点击返回到主屏幕</string>
+    <string name="click_for_restore_float_view_title">甜甜圈在这里</string>
+    <string name="activity_device_admin_reason">注意：激活之后，可能无法正常卸载甜甜圈，请在手机“设置” - “安全” - “设备管理器”中解除甜甜圈的激活即可正常卸载。</string>
+    <string name="dialog_accessibility_message">我们需要您在辅助功能项中开启甜甜圈，这样您就可以正常使用返回和最近任务键了。请点击“前往设置”。</string>
+    <string name="dialog_to_set_up">前往设置</string>
+    <string name="q_1">小米系统如何开机启动？</string>
+    <string name="a_1">"1、设置-应用程序-甜甜圈。
+2、权限管理-打开我信任该程序。
+3、权限管理-打开自动启动。"</string>
+    <string name="q_3">华为EMUI如何开机启动？</string>
+    <string name="a_3">设置-全部（标签）-开机自启项-勾选甜甜圈。</string>
+    <string name="q_2">小米系统悬浮按钮不显示？</string>
+    <string name="a_2">"MIUI v6之前版本：手机设置-应用-甜甜圈-显示悬浮窗，选择“打开”。然后点击页面最下方的“结束运行”，重新启动甜甜圈。
+MIUI v6及之后版本：安全中心-授权管理-应用权限管理-甜甜圈-显示悬浮窗，选择“允许”之后，重启甜甜圈。"</string>
+    <string name="q_4">华为EMUI悬浮按钮不显示？</string>
+    <string name="a_4">手机管家-系统设置（右上角）-悬浮窗管理-勾选中甜甜圈即可。</string>
+    <string name="q_5">悬浮按钮消失怎么办？</string>
+    <string name="a_5">请检查您是否误将甜甜圈加入了手机安防软件的黑名单，安防软件误清理。部分机型适配问题也可能导致悬浮按钮消失。如出现此类情况，请在甜甜圈的设置中，开关一下“悬浮图标开关”，即可恢复悬浮按钮显示。</string>
+    <string name="explain_cant_uninstall_ok">我知道了</string>
+    <string name="explain_cant_uninstall_title">警告</string>
+    <string name="explain_cant_uninstall_1">您可能无法正常卸载甜甜圈，卸载方法如下：</string>
+    <string name="explain_cant_uninstall_2">"1、您可在甜甜圈主程序中点击&lt;font color='#3ec4f6'>更多-卸载按钮&lt;/font>。"</string>
+    <string name="explain_cant_uninstall_3">"2、或者在甜甜圈主程序&lt;font color='#3ec4f6'>帮助-为什么不能卸载甜甜圈&lt;/font>，按提示完成卸载。"</string>
+    <!-- settings -->
+    <string name="cata_base_setting_title">基础设置</string>
+    <string name="switch_float_view_title">悬浮图标开关</string>
+    <string name="float_view_auto_side_model">边缘吸附</string>
+    <string name="auto_open">开机启动</string>
+    <string name="info_auto_open">手机重启后自动启动甜甜圈</string>
+    <string name="smart_hide">智能隐藏</string>
+    <string name="smart_hide_desc">输入时自动隐藏在键盘之下</string>
+    <string name="vibrator_level">振动强度</string>
+    <string name="vibrator_level_desc">调节触摸时的振动反馈强度</string>
+    <string name="vibrator_level_default">默认</string>
+    <string name="cata_float_view_feature_setting">外观设置</string>
+    <string name="pref_float_view_size_title">大小</string>
+    <string name="pref_float_view_theme">皮肤</string>
+    <string name="pref_float_view_trans_title">透明度</string>
+    <string name="cata_float_view_other_setting">其他设置</string>
+    <string name="pref_float_view_questions">常见问题</string>
+    <string name="pref_float_view_version">版本号</string>
+    <string name="pref_float_view_about">关于</string>
+    <string name="explain_root_cancel">关闭</string>
+    <string name="explain_root_dont_show_again">不再提醒</string>
+</resources>

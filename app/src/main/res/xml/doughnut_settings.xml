@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.way.materialpreference.PreferenceCategory android:title="@string/cata_base_setting_title">
+        <com.way.materialpreference.SwitchPreference
+            android:defaultValue="true"
+            android:key="key_switch_float_view"
+            android:title="@string/switch_float_view_title" />
+        <com.way.materialpreference.SwitchPreference
+            android:defaultValue="false"
+            android:key="key_switch_float_view_auto_side_model"
+            android:title="@string/float_view_auto_side_model" />
+        <com.way.materialpreference.SwitchPreference
+            android:defaultValue="true"
+            android:key="key_switch_float_view_smart_hide"
+            android:summary="@string/smart_hide_desc"
+            android:title="@string/smart_hide" />
+        <com.way.materialpreference.SwitchPreference
+            android:defaultValue="true"
+            android:key="key_switch_float_view_boot"
+            android:summary="@string/info_auto_open"
+            android:title="@string/auto_open" />
+
+        <com.way.materialpreference.Preference
+            android:key="key_vibrator_level"
+            android:summary="@string/vibrator_level_desc"
+            android:title="@string/vibrator_level" />
+    </com.way.materialpreference.PreferenceCategory>
+    <com.way.materialpreference.PreferenceCategory android:title="@string/cata_float_view_feature_setting">
+        <com.way.materialpreference.Preference
+            android:key="key_float_view_theme"
+            android:title="@string/pref_float_view_theme" />
+
+        <com.way.view.DiscreteSeekBarPreference
+            android:key="key_float_view_tran"
+            android:title="@string/pref_float_view_trans_title"
+            app:dsbp_format="%d"
+            app:dsbp_max="100"
+            app:dsbp_min="20" />
+        <com.way.view.DiscreteSeekBarPreference
+            android:key="key_float_view_size"
+            android:title="@string/pref_float_view_size_title"
+            app:dsbp_format="%d"
+            app:dsbp_max="200"
+            app:dsbp_min="50" />
+    </com.way.materialpreference.PreferenceCategory>
+    <com.way.materialpreference.PreferenceCategory android:title="@string/cata_float_view_other_setting">
+        <com.way.materialpreference.Preference
+            android:key="key_float_view_version"
+            android:title="@string/pref_float_view_version" />
+        <com.way.materialpreference.Preference
+            android:key="key_float_view_about"
+            android:title="@string/pref_float_view_about">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://blog.csdn.net/way_ping_li" />
+        </com.way.materialpreference.Preference>
+    </com.way.materialpreference.PreferenceCategory>
+
+</PreferenceScreen>
